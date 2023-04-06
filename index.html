@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <form>
+            <input type="text" name="display" id="display" readonly>
+            <br>
+            <input type="button" value="C" onclick="clearDisplay()">
+            <input type="button" value="Del" onclick="deleteDisplay()">
+            <input type="button" value="()" onclick="buttonPressed('()')">
+            <input type="button" value="%" onclick="buttonPressed('%')">
+            <br>
+            <input type="button" value="7" onclick="buttonPressed('7')">
+            <input type="button" value="8" onclick="buttonPressed('8')">
+            <input type="button" value="9" onclick="buttonPressed('9')">
+            <input type="button" value="/" onclick="buttonPressed('/')">
+            <br>
+            <input type="button" value="4" onclick="buttonPressed('4')">
+            <input type="button" value="5" onclick="buttonPressed('5')">
+            <input type="button" value="6" onclick="buttonPressed('6')">
+            <input type="button" value="*" onclick="buttonPressed('*')">
+            <br>
+            <input type="button" value="1" onclick="buttonPressed('1')">
+            <input type="button" value="2" onclick="buttonPressed('2')">
+            <input type="button" value="3" onclick="buttonPressed('3')">
+            <input type="button" value="-" onclick="buttonPressed('-')">
+            <br>
+            <input type="button" value="0" onclick="buttonPressed('0')">
+            <input type="button" value="." onclick="buttonPressed('.')">
+            <input type="button" value="=" onclick="calculate()">
+            <input type="button" value="+" onclick="buttonPressed('+')">
+            <br>
+            
+
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
